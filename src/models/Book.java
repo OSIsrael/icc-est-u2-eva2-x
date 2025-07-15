@@ -74,10 +74,6 @@ public class Book implements Comparable<Book>{
         if (cmp!=0) {
             return cmp;
         }
-        cmp=this.autor.compareTo(o.autor);
-        if (cmp!=0) {
-            return cmp;
-        }
         return Integer.compare(this.anio, o.anio);
     
       

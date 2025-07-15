@@ -70,7 +70,7 @@ public class Book implements Comparable<Book>{
 
     @Override
     public int compareTo(Book o) {
-        int cmp=this.titulo.compareTo(o.titulo);
+        int cmp=o.titulo.compareTo(this.titulo);
         if (cmp!=0) {
             return cmp;
         }
